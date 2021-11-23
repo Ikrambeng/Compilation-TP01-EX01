@@ -30,6 +30,8 @@ public class App extends Application {
         Parent mainPane = FXMLLoader.load(App.class.getResource("frame.fxml"));
 
         primaryStage.setTitle("TP Compilation");
+
+        
         primaryStage.getIcons().add(new Image("comp-logo.jpg"));
 
         primaryStage.setScene(new Scene(mainPane));
